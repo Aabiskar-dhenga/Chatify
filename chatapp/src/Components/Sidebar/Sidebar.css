@@ -1,0 +1,38 @@
+.sidebarAppcontainer{
+   height: 100vh;
+   /* height: auto; */
+   color: antiquewhite;
+    padding-left: 33px;
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    gap: 23px;
+
+}
+.searchBox{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(46,51,61);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.conversation_list{
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    gap: 5px;
+}
+.searchIcon{
+    padding-left: 12px;
+    
+}
+
+.searchBar{
+height: 100%;
+    width: 80%;
+    background-color: rgb(46,51,61);
+outline: none;
+border: none;
+}

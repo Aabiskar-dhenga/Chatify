@@ -1,0 +1,29 @@
+.messageboxContainer{
+    height: 80px;
+    width: 425px;
+    /* background-color: aliceblue; */
+    display: flex;
+    color: grey;
+    gap: 36px;
+    align-items: center;
+    border-radius: 25px;
+    padding-left: 22px;
+}
+.profileImg{
+    height: 80%;
+    border-radius: 24px;
+    width: fit-content;
+    width: 64px;
+}
+.chatMessage{
+    display: flex;
+    gap: 6rem;
+}
+.messageTitle{
+    display: flex;
+    gap: 9rem;
+}
+
+.messageboxContainer:hover{
+    background-color: rgb(46,51,61);
+}

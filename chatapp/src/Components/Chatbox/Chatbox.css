@@ -1,0 +1,47 @@
+.chatHeader{
+    padding: 1rem;
+    height: 10%;
+    /* background-color: rebeccapurple; */
+}
+
+.chatheaderBottom{
+    display: flex;
+justify-content: space-between;
+}
+.chatheaderIcon{
+    display: flex;
+    gap: 3rem;
+    padding-right: 64px;
+}
+.chatboxContainer{
+    height: 100vh;
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    /* background-color: aqua; */
+}
+.messaegeInputBox{
+    height: 24px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 10%;
+}
+.attachmentIcon{
+    color: grey;
+}
+
+.inputBox{
+    height: 100%;
+    width: 100%;
+background: none;
+    border-radius: 23px;
+padding-left: 12px;
+    border: none;
+    outline: none;}

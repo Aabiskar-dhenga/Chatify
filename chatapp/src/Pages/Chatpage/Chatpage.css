@@ -1,0 +1,9 @@
+.chatPageContainer{
+    background-color: rgb(32,35,41);
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* padding-top: 28px; */
+
+}
