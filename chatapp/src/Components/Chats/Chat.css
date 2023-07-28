@@ -10,13 +10,15 @@ align-items: center;
     justify-content: space-between;
 }
 .messages{
-    background-color: grey;
+    background-color:rgb(55,151,240);
     padding: 6px 12px;
     border-radius: 23px;
+    letter-spacing: 1px;
 }
 .chatContainer{
     display: flex;
-    gap: 1rem;
+    gap: 1rem;  
+
 }
 .viewerProfileImg{
     width: 23px;
@@ -33,4 +35,5 @@ align-items: center;
     /* display: inline-flex !important; */
     /* justify-self: flex-end; */
     align-self: flex-end;
+
 }
