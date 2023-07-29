@@ -15,6 +15,7 @@
     border-radius: 24px;
     width: fit-content;
     width: 64px;
+    object-fit: cover;
 }
 .chatMessage{
     display: flex;
