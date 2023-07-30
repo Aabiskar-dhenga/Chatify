@@ -2,14 +2,14 @@ import React from "react";
 import "./Messagebox.css";
 import { AiFillPushpin } from "react-icons/Ai";
 
-const Messagebox = ({ name }) => {
-  console.log(name);
+const Messagebox = ({ op }) => {
+  console.log(op);
   return (
     <div className="messageboxContainer">
-      <img className="profileImg" src={name.img} alt="profileImg" />
+      <img className="profileImg" src={op.img} alt="profileImg" />
       <div>
         <div className="messageTitle">
-          <h3>{name.nam}</h3>
+          <h3>{op.name}</h3>
           <p>4 m</p>
         </div>
         <div className="chatMessage">

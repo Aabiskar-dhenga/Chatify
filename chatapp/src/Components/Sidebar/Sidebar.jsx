@@ -12,16 +12,9 @@ const Sidebar = () => {
         <input className="searchBar" placeholder="Search " type="text" />
       </div>
       <div className="conversation_list">
-        {
-People.map((name)=>{
-
-return <Messagebox  name ={name}/>
-
-})
-
-          
-        }
-       
+        {People.map((name) => {
+          return <Messagebox op={name} />;
+        })}
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Message } from "../../utilities/data";
 import Chat from "../Chats/Chat";
 import styles from "./msgGround.module.css";
 
-const MsgGround = (user) => {
+const MsgGround = ({ messageArray }) => {
   const loggedInUser = {
     name: "dhenga",
     id: "#42691",
@@ -13,7 +13,7 @@ const MsgGround = (user) => {
 
   return (
     <div className={styles.msgGround}>
-      {Message.map((msg) => {
+      {messageArray.map((msg) => {
         return <Chat loggedInUser={loggedInUser} msg={msg} />;
       })}
     </div>
